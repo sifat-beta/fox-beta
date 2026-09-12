@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Foxside, The Enterprise AI Suite</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;800;900&family=Mulish:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;800;900&family=Mulish:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;800;900&family=Mulish:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet"></noscript>
+<link rel="preload" as="style" href="/styles.min.css">
+<link rel="stylesheet" href="/styles.min.css">
+<link rel="preload" as="script" href="/app.min.js">
+</head>
+<body>
+
+<div id="cur-dot"></div>
+<div id="cur-ring"></div>
+
+<!-- ── NAV ── -->
+<nav id="navbar">
+  <a class="n-logo" href="#home" onclick="nav('home')">
+    <div class="n-logo-mark"></div>
+    FOXSIDE
+  </a>
+  <ul class="n-links">
+    <li class="n-drop-wrap">
+      <button class="n-dropdown-trigger">Products ▾</button>
+      <div class="n-dropdown" id="nav-dropdown"></div>
+    </li>
+    <li><a href="#case-studies" onclick="nav('case-studies')">Case Studies</a></li><li><a href="#about" onclick="nav('about')">About</a></li>
+    <li><a href="#contact" onclick="nav('contact')">Contact</a></li>
+    <li><a href="#contact" onclick="nav('contact')" class="n-cta">Book a Demo</a></li>
+  </ul>
+</nav>
+
+<!-- ── APP ── -->
+<main>
+  <div id="app"></div>
+</main>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="wrap">
+    <div class="ft-top" id="ft-top"></div>
+    <div class="ft-bottom">
+      <span>© 2026 Foxside Technologies Ltd. All rights reserved.</span>
+      <div class="ft-badge">All systems operational</div>
+      <span><a href="#privacy" onclick="nav('privacy')" style="color:var(--text-dim);text-decoration:none;margin-right:16px">Privacy Policy</a><a href="#refund" onclick="nav('refund')" style="color:var(--text-dim);text-decoration:none">Refund Policy</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="/app.min.js"></script>
+</body>
+</html>
